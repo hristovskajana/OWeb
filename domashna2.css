@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+    color: #333333; 
+    margin: 0; 
+    padding: 0; 
+}
+
+form {
+    border: 2px solid #333333;
+    padding: 20px; 
+    width: 300px;
+    margin: 30px auto; 
+    background-color: #ffffff; 
+    border-radius: 8px; 
+}
+
+
+label, input, select, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; 
+    font-size: 14px; 
+}
+
+
+.buttons input[type="submit"], .buttons input[type="reset"] {
+    background-color: #4CAF50; 
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    margin: 5px;
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+
+.buttons input[type="submit"]:hover, .buttons input[type="reset"]:hover {
+    background-color: #45a049; 
+}
