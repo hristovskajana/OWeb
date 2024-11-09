@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра со зборам</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Погоди го зборот!</h1>
+        <div class="word-display">
+            <span id="word-display"></span>
+        </div>
+        <input type="text" id="letter-input" maxlength="1" placeholder="Внесете буква" />
+        <button onclick="checkLetter()">Провери</button>
+        <div id="attempts-left"></div>
+        <div id="message"></div>
+        <button id="new-game" onclick="startNewGame()" style="display:none;">Нова игра</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
